@@ -49,3 +49,48 @@
 - end
 - format
 
+## 6. Boolean & and, or
+- Bool()
+- '>', '<', '=', '>=', '<=', '!'
+- is or is not
+    - 객체가 다른지 비교할 때 (Javascript 에서 ===)
+
+### 상위 Boolean 먼저 연산
+
+- not True || not False
+- and
+- or
+- 단락 평가
+    - 첫번째 값만으로 결과가 확실할 때 두 번째 값은 평가 받지 않음
+    - ex) and 에서 앞이 거짓이면 두 번째 값은 확인하지 않고 거짓으로 결정
+    - or는 그 반대
+
+## 7. list, tuple
+- range(x, y, z)
+    - start : x, end : y, range : z
+- list vs tuple
+    - tuple은 변경, 추가, 삭제 불가
+- 빈 튜플 만들기
+    - (x, ), x, 
+- 문자열 list
+    - list('Hello')
+    >> ['H', 'e', 'l', 'l', 'o']
+
+## 8. sequence type
+- list
+- tuple
+- range
+- string
+- bytes
+- bytearray
+
+    - 특정 값이 있는지 확인
+        - 30 in list || 30 not in list
+    - 객체 연결하기
+        - list + list
+    - 객체 반복하기
+        - list * number
+    - list, tuple 요소 개수 구하기
+        - len()
+    - 요소 삭제 del a[x]
+    
